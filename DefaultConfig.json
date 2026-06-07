@@ -1,0 +1,57 @@
+{
+  "$type": "KOBOT_Control_2.ConfigManager+Config, KOBOT Control 2",
+  "RestAPI": {
+    "$type": "KOBOT_Control_2.ConfigManager+RestApiParameters, KOBOT Control 2",
+    "SendingInterval": 50,
+    "ClientPort": 11002,
+    "ServerPort": 11001,
+    "ServerIP": "127.0.0.1"
+  },
+  "Grip": {
+    "$type": "KOBOT_Control_2.ConfigManager+GripParameters, KOBOT Control 2",
+    "COMPortName": "COM21",
+    "InitTimeMS": 5000
+  },
+  "UpperPositionDeviation": 1.0,
+  "LowerPositionDeviation": 1.0,
+  "Commands": {
+    "$type": "KOBOT_Control_2.Commander+Command[], KOBOT Control 2",
+    "$values": [
+      {
+        "$type": "KOBOT_Control_2.Commander+Another, KOBOT Control 2",
+        "CommandName": "ANOTHER",
+        "LineNumber": 0
+      },
+      {
+        "$type": "KOBOT_Control_2.Commander+Motion, KOBOT Control 2",
+        "CommandName": "MOTION",
+        "Splines": {
+          "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[KOBOT_Control_2.Commander+Spline, KOBOT Control 2]], mscorlib",
+          "WristR": {
+            "$type": "KOBOT_Control_2.Commander+Spline, KOBOT Control 2",
+            "Position": 90.0,
+            "DelayMS": 0
+          }
+        },
+        "TimeoutMS": 3000
+      },
+      {
+        "$type": "KOBOT_Control_2.Commander+Grip, KOBOT Control 2",
+        "CommandName": "GRIP",
+        "Position": 0,
+        "Force": 20,
+        "TimeMS": 2000
+      },
+      {
+        "$type": "KOBOT_Control_2.Commander+Pause, KOBOT Control 2",
+        "CommandName": "PAUSE",
+        "TimeMS": 1500
+      },
+      {
+        "$type": "KOBOT_Control_2.Commander+Goto, KOBOT Control 2",
+        "CommandName": "GOTO",
+        "Index": 0
+      }
+    ]
+  }
+}

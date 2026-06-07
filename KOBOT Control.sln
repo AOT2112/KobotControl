@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 18
+VisualStudioVersion = 18.6.11709.129 insiders
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KOBOT Control", "KOBOT Control\KOBOT Control.csproj", "{775DC475-A2BA-4A78-A0EF-9F0D2C8CF4B1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{775DC475-A2BA-4A78-A0EF-9F0D2C8CF4B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{775DC475-A2BA-4A78-A0EF-9F0D2C8CF4B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{775DC475-A2BA-4A78-A0EF-9F0D2C8CF4B1}.Debug|x64.ActiveCfg = Debug|x64
+		{775DC475-A2BA-4A78-A0EF-9F0D2C8CF4B1}.Debug|x64.Build.0 = Debug|x64
+		{775DC475-A2BA-4A78-A0EF-9F0D2C8CF4B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{775DC475-A2BA-4A78-A0EF-9F0D2C8CF4B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{775DC475-A2BA-4A78-A0EF-9F0D2C8CF4B1}.Release|x64.ActiveCfg = Release|x64
+		{775DC475-A2BA-4A78-A0EF-9F0D2C8CF4B1}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9A0B4284-7C1C-4AA3-8351-F9319AE91EAA}
+	EndGlobalSection
+EndGlobal

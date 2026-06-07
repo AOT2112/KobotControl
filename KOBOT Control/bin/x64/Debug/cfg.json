@@ -1,0 +1,387 @@
+{
+  "$type": "KOBOT_Control.ConfigManager+Config, KOBOT Control",
+  "RestAPI": {
+    "$type": "KOBOT_Control.ConfigManager+RestApiParameters, KOBOT Control",
+    "SendingInterval": 50,
+    "ClientPort": 11002,
+    "ServerPort": 11001,
+    "ServerIP": "127.0.0.1"
+  },
+  "Grip": {
+    "$type": "KOBOT_Control.ConfigManager+GripParameters, KOBOT Control",
+    "COMPortName": "COM21",
+    "InitTimeMS": 5000
+  },
+  "UpperPositionDeviation": 1.0,
+  "LowerPositionDeviation": 1.0,
+  "Commands": {
+    "$type": "KOBOT_Control.Commander+Command[], KOBOT Control",
+    "$values": [
+	 {
+        "$type": "KOBOT_Control.Commander+Motion, KOBOT Control",
+        "CommandName": "MOTION",
+        "Splines": {
+          "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[KOBOT_Control.Commander+Spline, KOBOT Control]], mscorlib",
+		  "Shoulder": {
+            "$type": "KOBOT_Control.Commander+Spline, KOBOT Control",
+            "Position": 0.0,
+            "DelayMS": 0
+          },
+          "Elbow": {
+            "$type": "KOBOT_Control.Commander+Spline, KOBOT Control",
+            "Position": 0.0,
+            "DelayMS": 0
+          },
+		  "WristF": {
+            "$type": "KOBOT_Control.Commander+Spline, KOBOT Control",
+            "Position": 0.0,
+            "DelayMS": 0
+          },
+		  "WristR": {
+            "$type": "KOBOT_Control.Commander+Spline, KOBOT Control",
+            "Position": 90.0,
+            "DelayMS": 0
+          },
+		  "Base": {
+            "$type": "KOBOT_Control.Commander+Spline, KOBOT Control",
+            "Position": 65.85,
+            "DelayMS": 0
+          }
+        },
+        "TimeoutMS": 4000
+      },
+	  {
+        "$type": "KOBOT_Control.Commander+Another, KOBOT Control",
+        "CommandName": "ANOTHER",
+        "LineNumber": 0
+      },
+	  {
+        "$type": "KOBOT_Control.Commander+Motion, KOBOT Control",
+        "CommandName": "MOTION",
+        "Splines": {
+          "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[KOBOT_Control.Commander+Spline, KOBOT Control]], mscorlib",
+          "Elbow": {
+            "$type": "KOBOT_Control.Commander+Spline, KOBOT Control",
+            "Position": -113.43,
+            "DelayMS": 0
+          },
+		  "WristF": {
+            "$type": "KOBOT_Control.Commander+Spline, KOBOT Control",
+            "Position": -68.1,
+            "DelayMS": 0
+          },
+		  "WristR": {
+            "$type": "KOBOT_Control.Commander+Spline, KOBOT Control",
+            "Position": 89.76,
+            "DelayMS": 0
+          }
+        },
+        "TimeoutMS": 1000
+      },
+	  {
+        "$type": "KOBOT_Control.Commander+Motion, KOBOT Control",
+        "CommandName": "MOTION",
+        "Splines": {
+          "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[KOBOT_Control.Commander+Spline, KOBOT Control]], mscorlib",
+          "Shoulder": {
+            "$type": "KOBOT_Control.Commander+Spline, KOBOT Control",
+            "Position": 37.65,
+            "DelayMS": 0
+          }
+        },
+        "TimeoutMS": 1000
+      },
+      {
+        "$type": "KOBOT_Control.Commander+Grip, KOBOT Control",
+        "CommandName": "GRIP",
+        "Position": 0,
+        "Force": 35,
+        "TimeMS": 1000
+      },
+	  {
+        "$type": "KOBOT_Control.Commander+Motion, KOBOT Control",
+        "CommandName": "MOTION",
+        "Splines": {
+          "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[KOBOT_Control.Commander+Spline, KOBOT Control]], mscorlib",
+          "Shoulder": {
+            "$type": "KOBOT_Control.Commander+Spline, KOBOT Control",
+            "Position": 37.3,
+            "DelayMS": 0
+          }
+        },
+        "TimeoutMS": 1000
+      },
+	  {
+        "$type": "KOBOT_Control.Commander+Motion, KOBOT Control",
+        "CommandName": "MOTION",
+        "Splines": {
+          "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[KOBOT_Control.Commander+Spline, KOBOT Control]], mscorlib",
+          "Elbow": {
+            "$type": "KOBOT_Control.Commander+Spline, KOBOT Control",
+            "Position": -79.46,
+            "DelayMS": 0
+          },
+		  "WristF": {
+            "$type": "KOBOT_Control.Commander+Spline, KOBOT Control",
+            "Position": -43.3,
+            "DelayMS": 0
+          },
+		  "WristR": {
+            "$type": "KOBOT_Control.Commander+Spline, KOBOT Control",
+            "Position": 89.73,
+            "DelayMS": 0
+          }
+        },
+        "TimeoutMS": 1000
+      },
+	  {
+        "$type": "KOBOT_Control.Commander+Motion, KOBOT Control",
+        "CommandName": "MOTION",
+        "Splines": {
+          "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[KOBOT_Control.Commander+Spline, KOBOT Control]], mscorlib",
+          "Shoulder": {
+            "$type": "KOBOT_Control.Commander+Spline, KOBOT Control",
+            "Position": 50.17,
+            "DelayMS": 0
+          },
+		  "Base": {
+            "$type": "KOBOT_Control.Commander+Spline, KOBOT Control",
+            "Position": 59.9,
+            "DelayMS": 0
+          }
+        },
+        "TimeoutMS": 1000
+      },
+	  {
+        "$type": "KOBOT_Control.Commander+Grip, KOBOT Control",
+        "CommandName": "GRIP",
+        "Position": 100,
+        "Force": 35,
+        "TimeMS": 1000
+      },
+	  {
+        "$type": "KOBOT_Control.Commander+Motion, KOBOT Control",
+        "CommandName": "MOTION",
+        "Splines": {
+          "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[KOBOT_Control.Commander+Spline, KOBOT Control]], mscorlib",
+          "Shoulder": {
+            "$type": "KOBOT_Control.Commander+Spline, KOBOT Control",
+            "Position": 30.73,
+            "DelayMS": 0
+          },
+		  "Base": {
+            "$type": "KOBOT_Control.Commander+Spline, KOBOT Control",
+            "Position": 48.03,
+            "DelayMS": 0
+          }
+        },
+        "TimeoutMS": 1000
+      },
+	  {
+        "$type": "KOBOT_Control.Commander+Motion, KOBOT Control",
+        "CommandName": "MOTION",
+        "Splines": {
+          "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[KOBOT_Control.Commander+Spline, KOBOT Control]], mscorlib",
+          "Elbow": {
+            "$type": "KOBOT_Control.Commander+Spline, KOBOT Control",
+            "Position": -126.46,
+            "DelayMS": 0
+          },
+		  "WristF": {
+            "$type": "KOBOT_Control.Commander+Spline, KOBOT Control",
+            "Position": -73.1,
+            "DelayMS": 0
+          },
+		  "WristR": {
+            "$type": "KOBOT_Control.Commander+Spline, KOBOT Control",
+            "Position": 88.54,
+            "DelayMS": 0
+          }
+        },
+        "TimeoutMS": 1000
+      },
+	  {
+        "$type": "KOBOT_Control.Commander+Grip, KOBOT Control",
+        "CommandName": "GRIP",
+        "Position": 0,
+        "Force": 35,
+        "TimeMS": 1000
+      },
+	  {
+        "$type": "KOBOT_Control.Commander+Motion, KOBOT Control",
+        "CommandName": "MOTION",
+        "Splines": {
+          "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[KOBOT_Control.Commander+Spline, KOBOT Control]], mscorlib",
+          "Shoulder": {
+            "$type": "KOBOT_Control.Commander+Spline, KOBOT Control",
+            "Position": 29.5,
+            "DelayMS": 0
+          },
+		  "Base": {
+            "$type": "KOBOT_Control.Commander+Spline, KOBOT Control",
+            "Position": 46.2,
+            "DelayMS": 0
+          }
+        },
+        "TimeoutMS": 1000
+      },
+	  {
+        "$type": "KOBOT_Control.Commander+Motion, KOBOT Control",
+        "CommandName": "MOTION",
+        "Splines": {
+          "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[KOBOT_Control.Commander+Spline, KOBOT Control]], mscorlib",
+          "Elbow": {
+            "$type": "KOBOT_Control.Commander+Spline, KOBOT Control",
+            "Position": -91.55,
+            "DelayMS": 0
+          },
+		  "WristF": {
+            "$type": "KOBOT_Control.Commander+Spline, KOBOT Control",
+            "Position": -48.24,
+            "DelayMS": 0
+          },
+		  "WristR": {
+            "$type": "KOBOT_Control.Commander+Spline, KOBOT Control",
+            "Position": 88.91,
+            "DelayMS": 0
+          }
+        },
+        "TimeoutMS": 1000
+      },
+	  {
+        "$type": "KOBOT_Control.Commander+Motion, KOBOT Control",
+        "CommandName": "MOTION",
+        "Splines": {
+          "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[KOBOT_Control.Commander+Spline, KOBOT Control]], mscorlib",
+          "Shoulder": {
+            "$type": "KOBOT_Control.Commander+Spline, KOBOT Control",
+            "Position": 43.86,
+            "DelayMS": 0
+          }
+        },
+        "TimeoutMS": 1000
+      },
+	  {
+        "$type": "KOBOT_Control.Commander+Grip, KOBOT Control",
+        "CommandName": "GRIP",
+        "Position": 100,
+        "Force": 35,
+        "TimeMS": 1000
+      },
+	  {
+        "$type": "KOBOT_Control.Commander+Motion, KOBOT Control",
+        "CommandName": "MOTION",
+        "Splines": {
+          "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[KOBOT_Control.Commander+Spline, KOBOT Control]], mscorlib",
+          "Shoulder": {
+            "$type": "KOBOT_Control.Commander+Spline, KOBOT Control",
+            "Position": 30.89,
+            "DelayMS": 0
+          },
+		  "Base": {
+            "$type": "KOBOT_Control.Commander+Spline, KOBOT Control",
+            "Position": 28.8,
+            "DelayMS": 0
+          }
+        },
+        "TimeoutMS": 1000
+      },
+	  {
+        "$type": "KOBOT_Control.Commander+Motion, KOBOT Control",
+        "CommandName": "MOTION",
+        "Splines": {
+          "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[KOBOT_Control.Commander+Spline, KOBOT Control]], mscorlib",
+          "Elbow": {
+            "$type": "KOBOT_Control.Commander+Spline, KOBOT Control",
+            "Position": -128.43,
+            "DelayMS": 0
+          },
+		  "WristF": {
+            "$type": "KOBOT_Control.Commander+Spline, KOBOT Control",
+            "Position": -74.33,
+            "DelayMS": 0
+          },
+		  "WristR": {
+            "$type": "KOBOT_Control.Commander+Spline, KOBOT Control",
+            "Position": 86.95,
+            "DelayMS": 0
+          }
+        },
+        "TimeoutMS": 1000
+      },
+	  {
+        "$type": "KOBOT_Control.Commander+Grip, KOBOT Control",
+        "CommandName": "GRIP",
+        "Position": 0,
+        "Force": 35,
+        "TimeMS": 1000
+      },
+	  {
+        "$type": "KOBOT_Control.Commander+Motion, KOBOT Control",
+        "CommandName": "MOTION",
+        "Splines": {
+          "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[KOBOT_Control.Commander+Spline, KOBOT Control]], mscorlib",
+          "Shoulder": {
+            "$type": "KOBOT_Control.Commander+Spline, KOBOT Control",
+            "Position": 28.8,
+            "DelayMS": 0
+          },
+		  "Base": {
+            "$type": "KOBOT_Control.Commander+Spline, KOBOT Control",
+            "Position": 28.81,
+            "DelayMS": 0
+          }
+        },
+        "TimeoutMS": 1000
+      },
+	  {
+        "$type": "KOBOT_Control.Commander+Motion, KOBOT Control",
+        "CommandName": "MOTION",
+        "Splines": {
+          "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[KOBOT_Control.Commander+Spline, KOBOT Control]], mscorlib",
+          "Elbow": {
+            "$type": "KOBOT_Control.Commander+Spline, KOBOT Control",
+            "Position": -93.7,
+            "DelayMS": 0
+          },
+		  "WristF": {
+            "$type": "KOBOT_Control.Commander+Spline, KOBOT Control",
+            "Position": -45.9,
+            "DelayMS": 0
+          },
+		  "WristR": {
+            "$type": "KOBOT_Control.Commander+Spline, KOBOT Control",
+            "Position": 76.88,
+            "DelayMS": 0
+          }
+        },
+        "TimeoutMS": 1000
+      },
+	  {
+        "$type": "KOBOT_Control.Commander+Motion, KOBOT Control",
+        "CommandName": "MOTION",
+        "Splines": {
+          "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[KOBOT_Control.Commander+Spline, KOBOT Control]], mscorlib",
+          "Shoulder": {
+            "$type": "KOBOT_Control.Commander+Spline, KOBOT Control",
+            "Position": 41.2,
+            "DelayMS": 0
+          }
+        },
+        "TimeoutMS": 1000
+      },
+	  {
+        "$type": "KOBOT_Control.Commander+Grip, KOBOT Control",
+        "CommandName": "GRIP",
+        "Position": 100,
+        "Force": 35,
+        "TimeMS": 1000
+      },
+      {
+        "$type": "KOBOT_Control.Commander+Goto, KOBOT Control",
+        "CommandName": "GOTO",
+        "Index": 0
+      }
+    ]
+  }
+}

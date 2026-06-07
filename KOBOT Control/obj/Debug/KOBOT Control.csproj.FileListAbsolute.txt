@@ -1,0 +1,14 @@
+C:\Users\Алексей\Documents\ForEmployment\KOBOT Control\KOBOT Control\bin\Debug\KOBOT Control.exe.config
+C:\Users\Алексей\Documents\ForEmployment\KOBOT Control\KOBOT Control\bin\Debug\KOBOT Control.exe
+C:\Users\Алексей\Documents\ForEmployment\KOBOT Control\KOBOT Control\bin\Debug\KOBOT Control.pdb
+C:\Users\Алексей\Documents\ForEmployment\KOBOT Control\KOBOT Control\bin\Debug\AG95.dll
+C:\Users\Алексей\Documents\ForEmployment\KOBOT Control\KOBOT Control\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Алексей\Documents\ForEmployment\KOBOT Control\KOBOT Control\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Алексей\Documents\ForEmployment\KOBOT Control\KOBOT Control\obj\Debug\KOBOT Control.csproj.AssemblyReference.cache
+C:\Users\Алексей\Documents\ForEmployment\KOBOT Control\KOBOT Control\obj\Debug\KOBOT_Control.MainForm.resources
+C:\Users\Алексей\Documents\ForEmployment\KOBOT Control\KOBOT Control\obj\Debug\KOBOT_Control.Properties.Resources.resources
+C:\Users\Алексей\Documents\ForEmployment\KOBOT Control\KOBOT Control\obj\Debug\KOBOT Control.csproj.GenerateResource.cache
+C:\Users\Алексей\Documents\ForEmployment\KOBOT Control\KOBOT Control\obj\Debug\KOBOT Control.csproj.CoreCompileInputs.cache
+C:\Users\Алексей\Documents\ForEmployment\KOBOT Control\KOBOT Control\obj\Debug\KOBOT Co.EC3F2E77.Up2Date
+C:\Users\Алексей\Documents\ForEmployment\KOBOT Control\KOBOT Control\obj\Debug\KOBOT Control.exe
+C:\Users\Алексей\Documents\ForEmployment\KOBOT Control\KOBOT Control\obj\Debug\KOBOT Control.pdb
